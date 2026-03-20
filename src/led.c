@@ -32,6 +32,13 @@ void led_set_colors(uint8_t board, uint8_t* rgb)
     if(board == 1) {
         for (int i = 0; i < 6; ++i) {
             set_color(i, rgb[i * 3], rgb[i * 3 + 1], rgb[i * 3 + 2]);
+
+        set_color(6, 255, 20, 147);
+        set_color(7, 255, 20, 147);
+
+        set_color(8, 255, 20, 147);
+        set_color(9, 255, 20, 147);
+        
         }
     } else if(board == 0) {
 
