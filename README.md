@@ -30,3 +30,20 @@ path=mu3io_bsod.dll
 
 ### Known issues
 * WAD LEDs don't work
+
+# Fork 
+To fix the WAD LED issues, I have forced the WAD LEDs to a solid pink color.
+If you want to change this, open `led.c` and modify the RGB values.
+```c
+        set_color(6, 255, 20, 147); 
+        set_color(7, 255, 20, 147);
+
+        set_color(8, 255, 20, 147);
+        set_color(9, 255, 20, 147);
+```
+
+After that, recompile using make.
+
+If someone finds how to make the WAD LEDs work with Ongeki, please fork this project and let me know so I can update my Ongeki Linux setup.
+
+You can find my attempts on my blog, along with some possibly useful resources to help make it work.
