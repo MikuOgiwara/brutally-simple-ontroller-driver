@@ -44,6 +44,6 @@ If you want to change this, open `led.c` and modify the RGB values.
 
 After that, recompile using make.
 
-If someone finds how to make the WAD LEDs work with Ongeki, please fork this project and let me know so I can update my Ongeki Linux setup.
+If someone finds how to make the WAD LEDs work with SDDT, please fork this project and let me know so I can update my Ongeki Linux setup.
 
 You can find my attempts on my blog, along with some possibly useful resources to help make it work.
